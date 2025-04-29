@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon CV - Mode Clair</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Style personnalisé pour les boutons */
+    .custom-button {
+      background-color: #3498db;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    .custom-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-900">
+
+  <div class="max-w-4xl mx-auto p-8">
+    <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">Mon CV</h1>
+    <p class="text-lg text-center text-gray-600 mb-6">
+      Découvrez mon parcours et mes compétences.
+    </p>
+
+    <div class="flex justify-center mb-8">
+      <section>
+        <!-- Bouton pour rediriger vers aziza.html (Mode sombre) -->
+        <a href="aziza.html" class="custom-button">
+          Changer de mode
+        </a>
+      </section>
+    </div>
+
+    <!-- Contenu du CV -->
+    <div class="mt-8">
+      <div class="resume_wrapper grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- CV Left Side -->
+        <div class="resume_left bg-gray-100 p-6 rounded-lg shadow-lg">
+          <div class="resume_image mb-4">
+            <img src="Image.jpg.jpg" alt="Image de profil" class="w-full h-auto rounded-full mb-4">
+          </div>
+          <div class="resume_bottom">
+            <div class="resume_item resume_namerole mb-4">
+              <div class="resume_name text-xl font-bold text-blue-600">Aziza Nissoukin</div>
+              <div class="resume_role text-lg text-gray-600">UI Designer</div>
+            </div>
+            <div class="resume_item resume_profil">
+              <div class="resume_title text-lg text-gray-800">Profil</div>
+              <div class="resume_info text-gray-700">
+                Passionnée par la conception d’interfaces utilisateur, je suis spécialisée dans la création de designs intuitifs et esthétiques. Mon expertise en design UI/UX, ainsi que mes compétences en HTML, CSS et outils comme Figma, me permettent de développer des interfaces à la fois modernes et fonctionnelles.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV Right Side -->
+        <div class="resume_right col-span-2 bg-gray-100 p-6 rounded-lg shadow-lg">
+          <div class="resume_item resume_education mb-6">
+            <div class="resume_title text-lg text-gray-800">Éducation</div>
+            <div class="resume_info text-gray-700">
+              <div class="resume_data mb-4">
+                <div class="year text-blue-600">2020 - 2021</div>
+                <div class="content">
+                  <p class="font-bold">Bachelor en Design d'Interface</p>
+                  <p>Université de Paris - Formation en design UI/UX, développement front-end, et stratégies de prototypage. J'ai appris à créer des interfaces centrées sur l'utilisateur tout en respectant les meilleures pratiques du design web.</p>
+                </div>
+              </div>
+              <div class="resume_data mb-4">
+                <div class="year text-blue-600">2021 - 2023</div>
+                <div class="content">
+                  <p class="font-bold">Master en Interaction Homme-Machine</p>
+                  <p>École Supérieure de Design - Spécialisation en ergonomie et développement d'interfaces numériques interactives pour des plateformes variées (web et mobile). J'ai acquis des compétences avancées en développement d'interfaces complexes et responsive design.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume_item resume_experience mb-6">
+            <div class="resume_title text-lg text-gray-800">Expérience Professionnelle</div>
+            <div class="resume_info text-gray-700">
+              <div class="resume_data mb-4">
+                <div class="year text-blue-600">2021 - 2022</div>
+                <div class="content">
+                  <p class="font-bold">UI Designer - ABC Company</p>
+                  <p>En tant que UI Designer chez ABC Company, j'ai conçu et prototypé des interfaces pour des applications mobiles, en travaillant étroitement avec des équipes de développement. Mon rôle impliquait la création de maquettes interactives, la réalisation de tests utilisateurs et l'optimisation des interfaces pour une meilleure expérience utilisateur.</p>
+                </div>
+              </div>
+              <div class="resume_data mb-4">
+                <div class="year text-blue-600">2022 - 2023</div>
+                <div class="content">
+                  <p class="font-bold">Lead UI Designer - XYZ Inc.</p>
+                  <p>En tant que Lead UI Designer chez XYZ Inc., j'ai supervisé une équipe de designers tout en coordonnant la création d'interfaces web et mobiles pour des projets à grande échelle. J'ai mis en place des processus de design UX, optimisé la communication entre les équipes et formé les nouveaux membres de l'équipe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume_item resume_skills mb-6">
+            <div class="resume_title text-lg text-gray-800">Compétences</div>
+            <div class="resume_info text-gray-700">
+              <div class="skills_list mb-4">
+                <div class="skills_left">Design UI/UX</div>
+                <div class="skills_bar bg-gray-200 rounded-full">
+                  <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 85%;">85%</div>
+                </div>
+              </div>
+              <div class="skills_list mb-4">
+                <div class="skills_left">HTML/CSS</div>
+                <div class="skills_bar bg-gray-200 rounded-full">
+                  <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="skills_list mb-4">
+                <div class="skills_left">Figma</div>
+                <div class="skills_bar bg-gray-200 rounded-full">
+                  <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 80%;">80%</div>
+                </div>
+              </div>
+              <div class="skills_list mb-4">
+                <div class="skills_left">JavaScript</div>
+                <div class="skills_bar bg-gray-200 rounded-full">
+                  <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 70%;">70%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume_item resume_interests">
+            <div class="resume_title text-lg text-gray-800">Centres d'intérêt</div>
+            <div class="resume_info text-gray-700">
+              <div class="interest mb-4">
+                <p class="font-bold">Volleyball</p>
+                <p>Passionnée par ce sport, je joue régulièrement en équipe et participe à des tournois locaux.</p>
+              </div>
+              <div class="interest mb-4">
+                <p class="font-bold">Lecture</p>
+                <p>J'aime explorer des livres sur le développement personnel, le design et la psychologie.</p>
+              </div>
+              <div class="interest mb-4">
+                <p class="font-bold">Films</p>
+                <p>Passionnée par le cinéma, je m'intéresse particulièrement aux films de science-fiction et aux drames psychologiques.</p>
+              </div>
+              <div class="interest mb-4">
+                <p class="font-bold">Cyclisme</p>
+                <p>Le cyclisme est l'une de mes passions, j'aime explorer de nouveaux endroits à vélo lors de mes vacances.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

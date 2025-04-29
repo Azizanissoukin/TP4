@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon CV - Mode Sombre</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .custom-button {
+      background-color: #e74c3c;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    .custom-button:hover {
+      background-color: #c0392b;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <div class="max-w-4xl mx-auto p-8">
+    <h1 class="text-4xl font-bold text-center text-red-600 mb-6">Mon CV - Mode Sombre</h1>
+    <p class="text-lg text-center text-gray-400 mb-6">
+      Découvrez mon parcours et mes compétences professionnelles dans le domaine du design.
+    </p>
+
+    <div class="flex justify-center mb-8">
+      <section>
+        <!-- Bouton pour rediriger vers index.html (Mode clair) -->
+        <a href="index.html" class="custom-button">
+          Changer de mode
+        </a>
+      </section>
+    </div>
+
+    <!-- Contenu du CV -->
+    <div class="mt-8">
+      <div class="resume_wrapper grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- CV Left Side -->
+        <div class="resume_left bg-gray-800 p-6 rounded-lg shadow-lg">
+          <div class="resume_image mb-4">
+            <img src="Image.jpg.jpg" alt="Image de profil" class="w-full h-auto rounded-full mb-4">
+          </div>
+          <div class="resume_bottom">
+            <div class="resume_item resume_namerole mb-4">
+              <div class="resume_name text-xl font-bold text-red-600">Aziza Nissoukin</div>
+              <div class="resume_role text-lg text-gray-400">UI Designer & Développeuse Front-End</div>
+            </div>
+            <div class="resume_item resume_profil">
+              <div class="resume_title text-lg text-gray-300">Profil</div>
+              <div class="resume_info text-gray-400">
+                Je suis une designer UI/UX passionnée par la création d’interfaces esthétiques et fonctionnelles. Je combine mon expertise en design et en développement front-end pour créer des produits numériques qui répondent aux besoins des utilisateurs et aux exigences techniques.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV Right Side -->
+        <div class="resume_right col-span-2 bg-gray-800 p-6 rounded-lg shadow-lg">
+          <div class="resume_item resume_education mb-6">
+            <div class="resume_title text-lg text-gray-300">Éducation</div>
+            <div class="resume_info text-gray-400">
+              <div class="resume_data mb-4">
+                <div class="year text-red-600">2019 - 2022</div>
+                <div class="content">
+                  <p class="font-bold">Licence en Design Graphique</p>
+                  <p>Université de Paris - Formation en design graphique, typographie, théorie des couleurs, et création de maquettes pour supports imprimés et numériques.</p>
+                </div>
+              </div>
+              <div class="resume_data mb-4">
+                <div class="year text-red-600">2022 - 2023</div>
+                <div class="content">
+                  <p class="font-bold">Master en UX/UI Design</p>
+                  <p>École Supérieure de Design - Formation avancée en UX/UI, développement d'interfaces utilisateur et méthodologies de recherche utilisateur. Maîtrise des outils de conception comme Sketch, Figma, et Adobe XD.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume_item resume_experience mb-6">
+            <div class="resume_title text-lg text-gray-300">Expérience Professionnelle</div>
+            <div class="resume_info text-gray-400">
+              <div class="resume_data mb-4">
+                <div class="year text-red-600">2021 - 2022</div>
+                <div class="content">
+                  <p class="font-bold">UI Designer - Innovatech</p>
+                  <p>Réalisation de maquettes UI et prototypage pour des applications mobiles et web. Collaboration étroite avec l'équipe de développement pour assurer l'implémentation fidèle des designs créés.</p>
+                </div>
+              </div>
+              <div class="resume_data mb-4">
+                <div class="year text-red-600">2022 - 2023</div>
+                <div class="content">
+                  <p class="font-bold">UX/UI Designer Senior - Web Studio</p>
+                  <p>Direction de la conception de produits web et mobiles en mettant l'accent sur l’expérience utilisateur et l'accessibilité. Réalisation de tests utilisateurs et optimisation continue des interfaces existantes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume_item resume_skills mb-6">
+            <div class="resume_title text-lg text-gray-300">Compétences</div>
+            <div class="resume_info text-gray-400">
+              <div class="skills_list mb-4">
+                <div class="skills_left">Design UI/UX</div>
+                <div class="skills_bar bg-gray-600 rounded-full">
+                  <div class="bg-red-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="skills_list mb-4">
+                <div class="skills_left">HTML/CSS/JavaScript</div>
+                <div class="skills_bar bg-gray-600 rounded-full">
+                  <div class="bg-red-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 85%;">85%</div>
+                </div>
+              </div>
+              <div class="skills_list mb-4">
+                <div class="skills_left">Figma/Adobe XD</div>
+                <div class="skills_bar bg-gray-600 rounded-full">
+                  <div class="bg-red-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 80%;">80%</div>
+                </div>
+              </div>
+              <div class="skills_list mb-4">
+                <div class="skills_left">ReactJS</div>
+                <div class="skills_bar bg-gray-600 rounded-full">
+                  <div class="bg-red-600 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 70%;">70%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume_item resume_interests">
+            <div class="resume_title text-lg text-gray-300">Centres d'intérêt</div>
+            <div class="resume_info text-gray-400">
+              <div class="interest mb-4">
+                <p class="font-bold">Voyages</p>
+                <p>Explorer de nouveaux endroits me permet de m’inspirer de cultures variées et d’élargir ma vision du monde du design.</p>
+              </div>
+              <div class="interest mb-4">
+                <p class="font-bold">Technologies</p>
+                <p>Passionnée par les nouvelles technologies, je suis toujours à la recherche de solutions innovantes pour améliorer les interfaces utilisateur.</p>
+              </div>
+              <div class="interest mb-4">
+                <p class="font-bold">Musique</p>
+                <p>Écouter et jouer de la musique est une grande source d'inspiration créative dans mon travail de designer.</p>
+              </div>
+              <div class="interest mb-4">
+                <p class="font-bold">Randonnée</p>
+                <p>La randonnée me permet de me ressourcer, de rester active et de m'inspirer de la nature pour mes créations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
